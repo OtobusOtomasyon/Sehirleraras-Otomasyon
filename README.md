@@ -1,15 +1,33 @@
-# Sehirlerarasi-Otomasyon
+# Sehirlerarasi Otobus Bilgi Otomasyon
+# Merhaba!
 
-Merhabalar
-Bu proje Dicle Universitesi Teknik Bilimler Meslek Yuksek Okulu Ogrencileri
+Bu proje, Dicle Üniversitesi Teknik Bilimler Meslek Yüksekokulu öğrencileri tarafından geliştirilmiştir. Proje, Java tabanlı bir uygulama olup, MySQL veri tabanı sistemi kullanmaktadır. Uygulama, Windows işletim sistemi için .exe formatında sunulmaktadır.
 
-# Enes Kacar
-# Hayat Kuscu
-# Gulistan Gecit
-# Mahmut Sibal
-Taraflarinca surdurulen
-# Isa Atas
-adli ogretim gorevlisi kontrolunde gerceklestirilen
-java tabanli
-mysql veri tabani sistemi kullanan 
-windows (.exe) sistemli bir uygulamadir
+# Takım Üyeleri
+- Enes Kacar - Takım Lideri
+- Hayat Kuşcu - Araştırmacı
+- Gülistan Geçit - Sunum Hazırlayan
+- Mahmut Sibal - Programcı / Editör
+
+# Danışman
+- İsa Atas - Öğretim Görevlisi
+
+# Proje Hakkında
+Bu proje, şehirlerarası ulaşım süreçlerini otomatikleştirmek amacıyla geliştirilmiştir. Kullanıcı dostu arayüzü ve verimli veri yönetimi ile şehirlerarası seyahat planlamasını kolaylaştırmayı hedeflemektedir.
+
+# Özellikler
+Kullanıcı dostu arayüz
+MySQL veri tabanı entegrasyonu
+Windows işletim sistemine uygun .exe dosyası
+Şehirlerarası ulaşım bilgileri yönetimi
+Kurulum
+Uygulamayı indirin.
+.exe dosyasını çalıştırın.
+Gerekli ayarları yaparak uygulamayı kullanmaya başlayın.
+
+# Katkıda Bulunanlar
+Projeye katkıda bulunan tüm takım üyelerine teşekkür ederiz. Ayrıca, proje sürecinde destek veren İsa Atas'a özel teşekkürlerimizi sunarız.
+
+# İletişim
+Herhangi bir soru veya öneriniz için bizimle iletişime geçebilirsiniz.
+
