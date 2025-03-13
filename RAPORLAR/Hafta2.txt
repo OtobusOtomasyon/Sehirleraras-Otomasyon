@@ -1,0 +1,56 @@
+10.03.2025
+
+SİSTEM ANALİZİ VE TASARIMI DERSİ (2024 – 2025)
+Ekip Adı: J-BUS
+Proje Adı: Şehirlerarası Otobüs Bilgi Sistemi 
+Dersin Hocası: Dr. Öğr. Üyesi İsa ATAŞ
+Tarih: 17.02.2025
+
+Ekip Üyeleri ve Görevleri
+1-	Takım Lideri: Enes KAÇAR
+2-	Uygulama Geliştirici: Muhammet Nuri ÖNER
+3-	Dokümantasyon Uzmanı: Mahmut SİBAL
+4-	Sunum Hazırlayıcısı: Gülistan GEÇİT
+5-	Araştırmacı 1:  Hayat KUŞÇU
+6-	Araştırmacı 2:  Mahmut SİBAL
+
+ŞEHİRLERARASI OTOBÜS SEYEHAT BİLGİ OTOMASYON RAPORU
+Bir şehirlerarası otobüs seyahat otomasyon sistemin de genellikle aşağıda ki sayfalar ve modüler bulunur.
+1-	Ana sayfa ( Homepage): Kullanıcı dostu arayüz ile sefer arama formu (nereden nereye, tarih, saat, yolcu sayısı). Popüler rotalar, kampanyalar, indirimli seferler. Kullanıcı giriş – kayıt bağlantıları. Müşteri hizmetleri ve iletişim bilgileri.
+2-	Kullanıcı Kayıt ve Giriş: 
+Kayıt ol (Sign Up):  Ad – soyadı, cinsiyet (kadın, erkek, çocuk)  e-posta, telefon, şifre vb. bilgilerin alındığı form. 
+Giriş Yap ( Login): E-posta, telefon, ve şifre ile oturum açma, şifremi unuttum, şifre sıfırlama işlemleri.
+3-	Kullanıcı Profil Sayfası: Kişisel bilgilerin güncellenmesi, seyahat geçmişi ve aktif biletler, kayıtlı kart bilgileri (opsiyonel)  ve favori rotalar. Bildirim ve tercih ayarlar.
+4-	Sefer Arama ve Listeleme Sayfası: Kullanıcıların girdiği kriterlere uygun seferlerin listelenmesi, filtreleme seçenekleri ( firma, saat, ücret, süre, otobüsün özellikleri) sefer detayları (kalkış-varış saatleri).
+5-	Koltuk Seçim Sayfası: Otobüs koltuk düzeninin görselleştirilmesi, koltuk rezervasyonu (boş-dolu, cinsiyet).
+6-	Ödeme Yöntemleri:  Banka havalesi, kredi kartı, sanal cüzdan, elden ödeme, promosyon kodu giriş alanı, ödeme onayı ve bilet oluşturma.
+7-	Bilet ve Ödeme Onay Sayfası: Bilet detayları (PNR kodu), sefer bilgileri, yolcu listesi, biletin PDF olarak indirilmesi veya e-posta / SMS ile gönderilmesi, iptal ve iade koşullarının belirtilmesi.
+Admin Paneli
+1-	Sefer Yönetimi: Yeni sefer ekleme, düzenleme, iptal etme.
+2-	Otobüs Yönetimi: Araç özellikleri, koltuk düzeni, plaka bilgisi.
+3-	Bilet ve Ödeme Takibi: Rezervasyonların listelenmesi, iptal / iade işlemleri.
+4-	Raporlar: Gelir analizi, yoğun seferler, müşteri istatistikleri.
+5-	Kullanıcı Yönetimi: Müşteri hesaplarının görüntülenmesi ve düzenlenmesi.
+
+
+Destek ve İletişim Sayfası
+1-	Sıkça sorulan sorular(SSS): Bilet iptali, bagaj kuralları.
+2-	Canlı Destek: Chat veya telefon 
+3-	Şikayet ve Geri Bildirim Form
+UYGULAMA GELİŞTİRİCİ RAPORU
+JAVA FX: Kullanıcı arayüzü tasarımı için nasıl kullanıldığını öğrendik.
+OOP (Nesne Yönelimli Programlama): Sınıf ve nesne ile daha verimli kod yazılabileceğini gördük.
+Veri Tabanı İşlemleri: Java ile MySQL bağlantısı kurmayı ve veri tabanı işlemlerinin bir araya getirilmesini kavradık.
+Dosya İşlemleri: Kullanıcı ve sefer bilgilerini dosyalar da saklamak için yöntemler geliştirildi.
+Hata Yönetimi: Hataları yakalayabilme ve try-catch bloklarını nasıl kullanabileceğimizi öğrendik.
+Threading ( Çoklu İş Parçacığı): Bilet süresi dolduğun da İPTAL edebilmek için nasıl bir sistem kurabileceğimizi kavradık.
+
+Kütüphaneler
+JavaFX:  Arayüz oluşturmak için temel bileşenler.
+JDBC (Java Database Connectivity): Veri tabanı bağlantısını sağlamak için nasıl kullanıldığı incelendi.
+Java.io : Dosya işlemleri için gerekli olan sınıf ve yöntemler incelendi.
+Java.util.concurrent: Thread yönetimi ve zamanlanmış görevler için araştırma.
+CSS: JavaFX arayüzünü daha şık hale getirmek için stil dosyalarının nasıl eklendiğini öğrendik.
+
+Sonuç
+Otobüs otomasyon projesi için araştırma ve kod geliştirme sürecindeyiz. Otobüs bileti uygulaması için hangi teknolojileri kullanmamız gerektiğini anlama aşamasındayız. Öğrendiklerimizi pratik şekil de koda dökmeye ve bilet işlemlerini kodlamayı planlıyoruz.
