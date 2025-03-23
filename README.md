@@ -14,6 +14,8 @@ Bu proje, Dicle Üniversitesi Teknik Bilimler Meslek Yüksekokulu öğrencileri 
 
 # Proje Hakkında
 Bu proje, şehirlerarası ulaşım süreçlerini otomatikleştirmek amacıyla geliştirilmiştir. Kullanıcı dostu arayüzü ve verimli veri yönetimi ile şehirlerarası seyahat planlamasını kolaylaştırmayı hedeflemektedir.
+![image](https://github.com/user-attachments/assets/a984c92a-2238-4379-a159-6457ac7fd1b0)
+
 
 # Özellikler
 Kullanıcı dostu arayüz
