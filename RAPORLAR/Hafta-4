@@ -1,0 +1,73 @@
+24.03.2025
+
+SİSTEM ANALİZİ VE TASARIMI DERSİ (2024 – 2025)
+
+
+
+Proje Adı: Şehirlerarası Otobüs Bilgi Sistemi
+
+Dersin Hocası: Dr. Öğr. Üyesi İsa ATAŞ
+
+Tarih: 17.02.2025
+
+Ekip Üyeleri ve Görevleri
+
+1-	Takım Lideri: Enes KAÇAR
+
+2-	Uygulama Geliştirici: Mahmut SİBAL
+
+3-	Dokümantasyon Uzmanı: Gülistan GEÇİT, Mahmut SİBAL
+
+4-	Sunum Hazırlayıcısı: Gülistan GEÇİT
+
+5-	Araştırmacı 1:  Hayat KUŞÇU
+
+
+
+                             
+
+
+
+ŞEHİRLERARASI OTOBÜS SEYAHAT BİLGİ OTOMASYONU
+
+Bu proje; şehirlerarası otobüs seyahatlerini kolaylaştırmak için bir otomasyon sistemi içermektedir. Sistem, müşterilerin rota seçimi, firma bilgileri, otobüs koltuğu seçimi ve ödeme işlerini gerçekleştirilmesine olanak tanır ve farklı bölümlerin nasıl tasarlandığını, devam ettiğini açıklamaktadır.
+
+1-	Güzergah Bölümü: Kullanıcıların seyahat edecekleri programlarını seçmelerini sağlamak.
+
+Tasarım ve Uygulama: Güzergah bilgileri bir veritabanın da saklanır. Örneğin (MySQL veya SQLite) Kullanıcı, başlangıç ve varış noktalarını kapsar. Seçilen bölümlerin ayrıntıları (mesafe, tahmini varış süresi, ücret) kullanıcı butonundan seçilir. Güzergah seçimi yapıldıktan sonra bir sonraki adıma geçilir.
+
+2-	Firma Bölümü: Kullanıcıların seyahat edecekleri otobüs firmasını seçmelerini sağlamaktadır.
+
+Tasarım ve Uygulama: Firma bilgileri (adı, iletişim bilgileri, hizmet kalitesi) veritabanın da saklanır.Kullanıcı, seçilen güzergah için uygun firmaları görüntüler. Firma seçimi yapıldıktan sonra ki adıma geçilir.
+
+3-	Otobüs Koltuk Seçme Bölümü: Kullanıcıların otobüste istedikleri koltuğu seçme olanığını sağlamak.
+
+Tasarım ve Uygulama: Otobüs koltuğu düzeni bir matris veya liste olarak temsil edilir. Boş olan koltukları görüntüler ve seçim yapılır. Seçilen koltuk rezerve edilir, bireysel olarak onaylanır.
+
+4-	Örnek Kod Yazma Bölümü: Amaç kullanıcıların biletlerini satın alabilmesi için ödemelerin tamamlanması.
+
+ Tasarım ve Uygulama: Kullanıcı, paketin güzergahını, firmayı ve bilgileri onayladıktan sonra ödeme sayfasına yönlendirir. Ödeme işlemi için kredi kartı bilgileri veya diğer ödeme yöntemleri kullanılır. Ödeme başarılı olduğun da kişisel bilet bilgileri ve onay mesajı görüntülenir.
+
+
+
+İmport java.sql.Connection;
+
+İmport java sql.DriverManager;
+
+
+
+public class DatabaseHelper {
+
+           
+
+            private static final String URL = “jdbc:mysql://localhost:3306/bus_automation”;
+
+            private static final  String USER = “root”;
+
+            private static final  String PASSWORD = “ ” ;
+
+
+
+public static Conection getConnection () throws Exception  {
+
+         return DriverManager.getConnection (URL,USER,PASSWORD);
