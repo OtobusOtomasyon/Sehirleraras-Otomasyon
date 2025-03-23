@@ -1,0 +1,40 @@
+17.03.2025
+SİSTEM ANALİZİ VE TASARIMI DERSİ (2024 – 2025)
+
+Proje Adı: Şehirlerarası Otobüs Bilgi Sistemi
+Dersin Hocası: Dr. Öğr. Üyesi İsa ATAŞ
+Tarih: 17.02.2025
+
+Ekip Üyeleri ve Görevleri
+1-	Takım Lideri: Enes KAÇAR
+2-	Uygulama Geliştirici: Mahmut SİBAL
+3-	Dokümantasyon Uzmanı: Gülistan GEÇİT, Mahmut SİBAL
+4-	Sunum Hazırlayıcısı: Gülistan GEÇİT
+5-	Araştırmacı 1:  Hayat KUŞÇU
+ŞEHİRLERARASI OTOBÜS SEYAHAT BİLGİ OTOMASYONU
+Java ile MySQL Veritabanı Bağlantısı 
+•	MySQL veritabanını sistemimize kurarak gerekli veritabanı ve tabloları oluşturduk.
+•	JDBC (Java Datebase Connectivity) Java ile MySQL veritabanı bağlantısı için JDBC API kullandık.
+•	MySQL veritabanına bağlanmak için JDBC sürücüsünü yükledik ve bağlantıyı oluşturduk.
+Veritabanı İşlemleri
+•	Veri Ekleme: SQL INSERT komutu kullanıldı.
+•	Veri Güncelleme: SQL UPDATE komutu kullanıldı.
+•	Veri Silme: SQL DELETE komutu kullanıldı.
+•	Veri Sorgulama: SQL SELECT komutu ile kullanıcılar sefer bilgilerini görüntüleyebilir.
+Hata Yönetimi
+Veritabanı bağlantısı sırasın da oluşabilecek hataları trycatch blokları kullanarak yönettik.
+
+UYGULAMA GELİŞTİRİCİ YORUMU
+Örnek olarak A ve B diye iki firma karşılaştırması yaptık. Daha anlaşılır ve hafıza da yer edinmesi için.
+A Firması: 
+•	Kullanıcı Dostu Arayüz: Basit ve kullanışlı bir tasarım.
+•	Veri Yönetimi: Kullanıcı verilerini güvenli bir şekil de saklar.
+•	Entegrasyon Yeteneği: Diğer sistemlerle uyumluluk sunar.
+•	Müşteri Destek Hizmetleri: 7/24 ulaşabilirlik ve destek hizmeti.
+•	Maliyet: Rekabetçi fiyat uygulaması sunar.
+B Firması:
+•	Kullanıcı Dostu Arayüz: Daha karmaşık bir tasarım olabilir.
+•	Veri Yönetimi: Yüksek veri güvenliği sağlar.
+•	Entegrasyon Yeteneği: Sınırlı seçenekler sunar.
+•	Müşteri Destek Hizmetleri: Belirli saatler arasın da hizmet verir.
+•	Maliyet: Yüksek limitli fiyatlar sunulabilir.
