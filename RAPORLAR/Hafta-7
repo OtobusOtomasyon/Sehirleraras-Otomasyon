@@ -1,0 +1,46 @@
+Haftalık Faaliyet Raporu
+1. Giriş
+Bu hafta staj kapsamında, Java Swing tabanlı arayüz geliştirme süreçlerine odaklanılmıştır. Özellikle, kullanıcı girişi, giriş deneme hakkı kontrolü, gerçek zamanlı saat gösterimi gibi temel işlevlerin hem kod düzeyinde anlaşılması hem de uygulamalı biçimde geliştirilmesi hedeflenmiştir.
+
+2. Yapılan Çalışmalar
+
+Java Swing kütüphanesi üzerinden arayüz bileşenleri (JLabel, JTextField, JButton vb.) kullanılarak login ekranı arayüzü incelendi.
+
+Giriş ekranında kullanıcı adı ve şifre kontrolleri yapıldı.
+
+Hatalı girişlerde deneme hakkının azalmasını sağlayan sayaç sistemi uygulandı.
+
+Kullanıcı deneme hakkını bitirdiğinde uygulamanın kapatılması işlevi test edildi.
+
+Timer sınıfı ile sistem saatini arayüzde gerçek zamanlı olarak gösteren işlev başarıyla entegre edildi.
+
+SimpleDateFormat sınıfı ile saat ve tarih biçimlendirmesi yapılması öğrenildi ve uygulandı.
+
+Kodun genel işleyişi analiz edilip, tüm satırlar raporlaştırıldı.
+
+Elde edilen kod, hata ayıklama yapılarak iyileştirildi.
+
+3. Kullanılan Teknolojiler / Araçlar
+
+Java JDK 17
+
+Java Swing (javax.swing)
+
+NetBeans IDE
+
+Timer ve SimpleDateFormat sınıfları
+
+JOptionPane, JFrame, JLabel, JTextField, JButton bileşenleri
+
+4. Kazanımlar
+
+Java Swing ile GUI geliştirme konusunda uygulamalı bilgi kazanıldı.
+
+Arayüz bileşenlerinin kullanıcı etkileşimleri ile nasıl bağdaştırıldığı öğrenildi.
+
+Java’da sayaç, koşul yapıları ve kullanıcı etkileşimi yönetimi üzerine deneyim kazanıldı.
+
+Gerçek zamanlı saat uygulaması üzerinden Timer sınıfı ile çalışmanın mantığı kavrandı.
+
+Kod analizi yeteneği gelişti ve yorumlama becerisi arttı.
+
