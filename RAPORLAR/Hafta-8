@@ -1,0 +1,26 @@
+Hafta 8'de Yapılan Ana Çalışmalar
+1. Kullanıcı Girişi ve Veritabanı Entegrasyonu
+
+Kullanıcı Girişi Kontrolü: Bu hafta, kullanıcı girişi doğrulama sistemine yönelik bazı hatalar giderildi. İlk başta JOptionPane'in gösterdiği hata mesajları kullanılarak temel güvenlik önlemleri alınmıştı. Ancak, güvenlik düzeyini artırmak için SQL enjeksiyonlarına karşı koruma sağlandı ve veritabanı sorguları güvenli hale getirildi.
+
+Veritabanı Bağlantı Optimizasyonu: Veritabanı bağlantısının hızlandırılması için Connection Pooling kullanmaya başladım. Bu sayede veritabanı ile her bağlantı kurulduğunda gecikme yaşanması engellendi ve veritabanı işlemleri daha hızlı hale getirildi.
+
+2. Gerçek Zamanlı Saat Entegrasyonu
+
+Timer Kullanımı: javax.swing.Timer sınıfı kullanılarak, saat uygulaması her saniye güncellendi. Bu sayede kullanıcılar zamanın geçişini rahatça izleyebildiler.
+
+Locale ve Zaman Formatı: Tarih ve saat formatını Türkçe’ye göre düzenledim. Bu, uygulamanın yerel kullanıcılara hitap etmesini sağladı ve Türkçe dil desteği ekledim. Örnek olarak, tarih formatını "dd.MM.yyyy - HH:mm:ss" olarak ayarladım.
+
+3. Kullanıcı Arayüzü İyileştirmeleri
+
+Görsel Düzenlemeler: Kullanıcıların daha rahat etkileşim kurabilmesi için buton boyutları büyütüldü ve renk kontrastları artırıldı. Özellikle hata mesajları ve başarı bildirimleri daha belirgin hale getirildi.
+
+Dinamik Arayüz Güncellemeleri: Kullanıcı adı ve şifre bilgileri doğrulandıktan sonra arayüzde anında güncellenen durum mesajları eklendi. Bu, kullanıcı deneyimini iyileştirdi.
+
+Yeni Öğrenilenler ve İlerleme
+JDBC Bağlantı Yönetimi: Bu hafta, veritabanı bağlantısının nasıl etkin yönetileceği konusunda bilgi sahibi oldum. Connection, Statement ve ResultSet sınıflarının işleyişine dair derinlemesine bilgi edinildi.
+
+Zamanlayıcılar ve GUI Güncellemeleri: Swing uygulamaları içinde zamanlayıcı kullanımı ve gerçek zamanlı saat bilgisi ile ilgili önemli ipuçları öğrendim. Bu özelliklerin kullanıcı etkileşimine nasıl katkı sağladığını deneyimledim.
+
+Veritabanı Güvenliği: Veritabanına yapılan sorgularda güvenlik açığı oluşmaması adına parametreli sorgular (PreparedStatement) kullanmanın önemini keşfettim. Bu güvenlik açığını kapatmak için SQL enjeksiyonlarını engelleyebilecek yapılar kurdum.
+
