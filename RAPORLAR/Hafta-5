@@ -1,0 +1,80 @@
+01.04.2025
+SİSTEM ANALİZİ VE TASARIMI DERSİ (2024 – 2025)
+
+Proje Adı: Java Swing ile Kullanıcı Giriş Arayüzü
+Dersin Hocası: Dr. Öğr. Üyesi İsa ATAŞ
+Tarih: 01.05.2025
+
+Ekip Üyeleri ve Görevleri
+1- Takım Lideri: Enes KAÇAR
+2- Uygulama Geliştirici: Mahmut SİBAL
+3- Dokümantasyon Uzmanı: Gülistan GEÇİT, Mahmut SİBAL
+4- Sunum Hazırlayıcısı: Gülistan GEÇİT
+5- Araştırmacı 1: Hayat KUŞÇU
+
+JAVA SWING GİRİŞ ARAYÜZÜ KOD ANALİZİ
+
+1. Java Swing Nedir?
+Java Swing, Java'nın grafiksel kullanıcı arayüzü (GUI) oluşturmak için kullanılan bir kütüphanesidir. JFrame, JLabel, JTextField, JButton, JOptionPane gibi bileşenleri içerir.
+
+2. Kullanılan Kütüphaneler:
+import java.awt.event.ActionEvent;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Locale;
+import javax.swing.JOptionPane;
+import javax.swing.Timer;
+
+3. Global Değişken:
+private int sayac = 3;
+
+4. Yapıcı Metot:
+public Main() {
+    initComponents();
+    startRealTimeClock();
+}
+
+5. Kullanıcı Girişi Kontrol Mekanizması:
+private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {
+    String Admin = "mahmut123";
+    String Password = "123456";
+    String User = jTextField2.getText();
+    String Pass = jTextField1.getText();
+    if (sayac > 0) {
+        if (User.equals("") && Pass.equals("")) {
+            JOptionPane.showMessageDialog(this, "Kullanici Adi Ve sifre Giriniz");
+            sayac--;
+        } else {
+            if (Admin.equals(User)) {
+                if (Password.equals(Pass)) {
+                    JOptionPane.showMessageDialog(this, "Giriş başarılı");
+                } else {
+                    sayac--;
+                    JOptionPane.showMessageDialog(this, "Hatalı kullanıcı adı");
+                }
+            } else {
+                sayac--;
+                JOptionPane.showMessageDialog(this, "Hatalı şifre");
+            }
+        }
+    } else {
+        JOptionPane.showMessageDialog(this, "Deneme hakkınız kalmadı");
+        dispose();
+    }
+    jLabel3.setText("Kalan Deneme: " + sayac);
+}
+
+6. Gerçek Zamanlı Saat Fonksiyonu:
+private void startRealTimeClock() {
+    Timer timer = new Timer(1000, (ActionEvent e) -> {
+        updateClock();
+    });
+    timer.setInitialDelay(0);
+    timer.start();
+    updateClock();
+}
+
+private void updateClock() {
+    SimpleDateFormat sdf = new SimpleDateFormat("dd.MM.yyyy - HH:mm:ss", new Locale("tr", "TR"));
+    jLabel4.setText(sdf.format(new Date()));
+}
