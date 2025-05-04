@@ -6,37 +6,12 @@ Tarih: 17.02.2025
 
 Ekip Üyeleri ve Görevleri
 1-	Takım Lideri: Enes KAÇAR
-2-	Uygulama Geliştirici: Mehmet Nuri ÖNER
-3-	Dokümantasyon Uzmanı: Mahmut SİBAL
-4-	Sunum Hazırlayıcısı: Gülistan GEÇİT
-5-	Araştırmacı 1:  Hayat KUŞÇU
-6-	Araştırmacı 2:  Mahmut SİBAL
+2-	Dokümantasyon Uzmanı / Proje Gelistirici: Mahmut SİBAL
+3-	Sunum Hazırlayıcısı: Gülistan GEÇİT
+4-	Araştırmacı 1:  Hayat KUŞÇU
+5-	Araştırmacı 2:  Sena Ekmen
 
 ŞEHİRLERARASI OTOBÜS SEYEHAT BİLGİ OTOMASYONU
-Otobüs seyahat bilgi otomasyonu toplu taşıma sistemlerin de otobüs rotaları, biletleme, sefer takipleri, yolcu bilgilendirme ve süreçlerin dijital olarak yönetilmesini sağlayan bir sistemdir.
-Temel Bileşenleri ve İşlevleri
-1-	Gerçek zamanlı takip sistemi
-2-	Otobüslerin konumu GPS ile izlenir
-3-	Otomatik biletleme ve ödeme
-4-	Sefer planlama ve optimizasyon 
-5-	Online bilet satış platformları ve QR kodlu bilet alma
-6-	Temasız ödeme sistemleri ile kağıt kullanımını azaltma
-7-	Yolcu yoğunluğu ve trafik verilerine göre seferler planlama 
-8-	Rota optimizasyonu ile yakıt ve zaman verimliliği sağlanır 
-9-	Yolcu bilgilendirme sistemleri
-10-	Sefer iptali, gecikme veya rota değişikliklerini anlık bildirme
-11-	Engelli yolcular için sesli ve görsel uyarı sistemleri
-12-	Otobüs bakım, onarım ve arıza 
-13-	Merkezi otomatik bağlama sistemi
-14-	Duraklara varış süreleri hesaplama ve yolculara bildirim (mobil veya elektronik)
-Kullanılan Teknolojiler
-IOT (nesnelerin interneti): Sensör ile veri toplama 
-Bulut tabanlı yazılımlar: Veri depolama ve analiz
-Yapay Zeka: Talep tahmini ve rota optimizasyonu
-API entegrasyonları: Trafik ve hava durumu verileri
-Avantajlar
-Zaman tasarrufu (yolcular ve operatör için hızlı işlemler), maliyet azaltma, çevre dostu, şeffaflık, kimlik doğrulama (bot girişleri engelleme), ağ güvenliği (siber güvenlik tarama ve şifre)
-Otobüs Seyahat Bilgi Otomasyonu Kullanan Şirketler: Türkiye de faaliyet gösteren büyük otobüs firmalarının dijital bilet sistemleri ve seyahat takip otomasyonlarını kullanan firmalar (Metro Turizm, Kamil Koç Turizm, Pamukkale Turizm vb)
 Gerekli Yazılımlar
 1-	JDK: Java kodlarını derlemek çalıştırmak için gerekli
 2-	IDE ( Entegre geliştirme ortamı: Intel IDEA tavsiye edilir. Eclipse veya NetBeans kullanılabilir.
@@ -48,9 +23,7 @@ Kullanılacak Teknolojiler
 Java SE ( Standart edition):  Temel JAVA programlama için kullanılacak
 Kullanıcı Arayüz Teknolojileri:  JAVA Swing veya JAVA FX (geliştirme için)
 Veritabanı Bağlantısı: JDBC ( Java Database Connectivit) ile veritabanı
-ORM araçları (isteğe bağlı)
-Backend Framework: Büyük ölçekli projeler için Spring Boot tercih edilebilir.
-Sunucu Yazılımları (Web Tabanlı Uygulama)  Tomcat veya Jetty kullanılabilir.
+
 
 Uygulama Özellikleri
 Kullanıcı Yönetimi
@@ -70,4 +43,3 @@ Kullanıcı Yönetimi
 2-	Koltuk seçimi ( cinsiyet ve kullanılabilirlik uyumluluğu)
 3-	Koltukları kullanıcıya görüntüleme (fotoğraf,video)
 4-	Etkileşimli koltuk seçimi işlevselliği sağlar.
-5-	Ekranları ve “ Hoş Geldiniz” mesajlarını yüklemek için animasyonlar içerir.
