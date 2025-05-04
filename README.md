@@ -6,6 +6,7 @@ Bu proje, Dicle Üniversitesi Teknik Bilimler Meslek Yüksekokulu öğrencileri 
 # Takım Üyeleri
 - Enes Kacar - Takım Lideri
 - Hayat Kuşcu - Araştırmacı
+- Sena Ekmen - Araştırmacı
 - Gülistan Geçit - Sunum Hazırlayan
 - Mahmut Sibal - Programcı / Editör
 
